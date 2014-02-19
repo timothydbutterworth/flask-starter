@@ -1,0 +1,14 @@
+<html>
+  <head>
+    <title>Starter Flask Application</title>
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+  </head>
+  <body>
+    <h1>Hello from Python/Flask</h1>
+    <form action="/hello" method="Post">
+      <p>What is your name? </p>
+      <input type="text" name="fullname"/>
+      <input type="submit" value="Enter"/>
+    </form>
+  </body>
+</html>
