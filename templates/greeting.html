@@ -5,6 +5,9 @@
   </head>
   <body>
     <h1>Hello {{fullname}}!</h1>
-    <a href="{{ url_for('hello') }}">Back to main page</a>
+    <ul>
+      <li><a href="{{ url_for('example_form') }}">Back to form example</a></li>
+      <li><a href="{{ url_for('index') }}">Back to main page</a></li>
+    </ul>
   </body>
 </html>
